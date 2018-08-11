@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96918F3A211F5FD500E10FBC /* DashBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96918F39211F5FD500E10FBC /* DashBoardController.swift */; };
+		96918F3D211F792700E10FBC /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96918F3B211F792700E10FBC /* ForgetPasswordVC.swift */; };
+		96918F3E211F792700E10FBC /* ForgetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96918F3C211F792700E10FBC /* ForgetPasswordVC.xib */; };
+		96918F44211F7F9F00E10FBC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 96918F40211F7F9E00E10FBC /* 3.png */; };
+		96918F45211F7F9F00E10FBC /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 96918F41211F7F9E00E10FBC /* 4.png */; };
+		96918F46211F7F9F00E10FBC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96918F42211F7F9E00E10FBC /* 2.png */; };
+		96918F47211F7F9F00E10FBC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 96918F43211F7F9F00E10FBC /* 1.png */; };
+		96918F49211F878F00E10FBC /* collection.json in Resources */ = {isa = PBXBuildFile; fileRef = 96918F48211F878F00E10FBC /* collection.json */; };
+		96943479211F1A220059221E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96943478211F1A220059221E /* AppDelegate.swift */; };
+		9694347B211F1A220059221E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9694347A211F1A220059221E /* LoginVC.swift */; };
+		9694347E211F1A220059221E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9694347C211F1A220059221E /* Main.storyboard */; };
+		96943481211F1A220059221E /* WelcomeMIVI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9694347F211F1A220059221E /* WelcomeMIVI.xcdatamodeld */; };
+		96943483211F1A240059221E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96943482211F1A240059221E /* Assets.xcassets */; };
+		96943486211F1A240059221E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96943484211F1A240059221E /* LaunchScreen.storyboard */; };
+		96943491211F1A240059221E /* WelcomeMIVITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96943490211F1A240059221E /* WelcomeMIVITests.swift */; };
+		9694349C211F1A240059221E /* WelcomeMIVIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9694349B211F1A240059221E /* WelcomeMIVIUITests.swift */; };
+		969434C6211F2BCB0059221E /* HeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969434C4211F2BCB0059221E /* HeaderVC.swift */; };
+		969434C7211F2BCB0059221E /* HeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 969434C5211F2BCB0059221E /* HeaderVC.xib */; };
+		969434CA211F317D0059221E /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969434C8211F317D0059221E /* DashBoardVC.swift */; };
+		969434CB211F317D0059221E /* DashBoardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 969434C9211F317D0059221E /* DashBoardVC.xib */; };
+		969434CD211F31BD0059221E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969434CC211F31BD0059221E /* Constant.swift */; };
+		969434CF211F34DC0059221E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969434CE211F34DC0059221E /* UIColor+Extension.swift */; };
+		969434D2211F36130059221E /* StaticJsonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969434D1211F36130059221E /* StaticJsonController.swift */; };
+		969434D4211F37060059221E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969434D3211F37060059221E /* DataController.swift */; };
+		969434D8211F3E240059221E /* DashBoardTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969434D6211F3E240059221E /* DashBoardTableCell.swift */; };
+		969434D9211F3E240059221E /* DashBoardTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 969434D7211F3E240059221E /* DashBoardTableCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9694348D211F1A240059221E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9694346D211F1A220059221E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96943474211F1A220059221E;
+			remoteInfo = WelcomeMIVI;
+		};
+		96943498211F1A240059221E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9694346D211F1A220059221E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96943474211F1A220059221E;
+			remoteInfo = WelcomeMIVI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96918F39211F5FD500E10FBC /* DashBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardController.swift; sourceTree = "<group>"; };
+		96918F3B211F792700E10FBC /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
+		96918F3C211F792700E10FBC /* ForgetPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPasswordVC.xib; sourceTree = "<group>"; };
+		96918F40211F7F9E00E10FBC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		96918F41211F7F9E00E10FBC /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		96918F42211F7F9E00E10FBC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		96918F43211F7F9F00E10FBC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		96918F48211F878F00E10FBC /* collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = collection.json; sourceTree = "<group>"; };
+		96943475211F1A220059221E /* WelcomeMIVI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WelcomeMIVI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96943478211F1A220059221E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9694347A211F1A220059221E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9694347D211F1A220059221E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96943480211F1A220059221E /* WelcomeMIVI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WelcomeMIVI.xcdatamodel; sourceTree = "<group>"; };
+		96943482211F1A240059221E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96943485211F1A240059221E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96943487211F1A240059221E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9694348C211F1A240059221E /* WelcomeMIVITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelcomeMIVITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96943490211F1A240059221E /* WelcomeMIVITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMIVITests.swift; sourceTree = "<group>"; };
+		96943492211F1A240059221E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96943497211F1A240059221E /* WelcomeMIVIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelcomeMIVIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9694349B211F1A240059221E /* WelcomeMIVIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMIVIUITests.swift; sourceTree = "<group>"; };
+		9694349D211F1A240059221E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969434C4211F2BCB0059221E /* HeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderVC.swift; sourceTree = "<group>"; };
+		969434C5211F2BCB0059221E /* HeaderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderVC.xib; sourceTree = "<group>"; };
+		969434C8211F317D0059221E /* DashBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
+		969434C9211F317D0059221E /* DashBoardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashBoardVC.xib; sourceTree = "<group>"; };
+		969434CC211F31BD0059221E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		969434CE211F34DC0059221E /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		969434D1211F36130059221E /* StaticJsonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticJsonController.swift; sourceTree = "<group>"; };
+		969434D3211F37060059221E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		969434D6211F3E240059221E /* DashBoardTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardTableCell.swift; sourceTree = "<group>"; };
+		969434D7211F3E240059221E /* DashBoardTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashBoardTableCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96943472211F1A220059221E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96943489211F1A240059221E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96943494211F1A240059221E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77C9D001A7317BC10A1A1860 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96918F3F211F7F9300E10FBC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				96918F43211F7F9F00E10FBC /* 1.png */,
+				96918F40211F7F9E00E10FBC /* 3.png */,
+				96918F42211F7F9E00E10FBC /* 2.png */,
+				96918F41211F7F9E00E10FBC /* 4.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9694346C211F1A220059221E = {
+			isa = PBXGroup;
+			children = (
+				96943477211F1A220059221E /* WelcomeMIVI */,
+				9694348F211F1A240059221E /* WelcomeMIVITests */,
+				9694349A211F1A240059221E /* WelcomeMIVIUITests */,
+				96943476211F1A220059221E /* Products */,
+				77C9D001A7317BC10A1A1860 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96943476211F1A220059221E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96943475211F1A220059221E /* WelcomeMIVI.app */,
+				9694348C211F1A240059221E /* WelcomeMIVITests.xctest */,
+				96943497211F1A240059221E /* WelcomeMIVIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96943477211F1A220059221E /* WelcomeMIVI */ = {
+			isa = PBXGroup;
+			children = (
+				96918F3F211F7F9300E10FBC /* Images */,
+				969434D0211F35E80059221E /* Controller */,
+				969434A9211F1B6A0059221E /* Json */,
+				96943478211F1A220059221E /* AppDelegate.swift */,
+				969434CC211F31BD0059221E /* Constant.swift */,
+				969434CE211F34DC0059221E /* UIColor+Extension.swift */,
+				9694347A211F1A220059221E /* LoginVC.swift */,
+				969434C4211F2BCB0059221E /* HeaderVC.swift */,
+				969434C5211F2BCB0059221E /* HeaderVC.xib */,
+				969434C8211F317D0059221E /* DashBoardVC.swift */,
+				969434C9211F317D0059221E /* DashBoardVC.xib */,
+				96918F3B211F792700E10FBC /* ForgetPasswordVC.swift */,
+				96918F3C211F792700E10FBC /* ForgetPasswordVC.xib */,
+				969434D5211F3DED0059221E /* Cell */,
+				9694347C211F1A220059221E /* Main.storyboard */,
+				96943482211F1A240059221E /* Assets.xcassets */,
+				96943484211F1A240059221E /* LaunchScreen.storyboard */,
+				96943487211F1A240059221E /* Info.plist */,
+				9694347F211F1A220059221E /* WelcomeMIVI.xcdatamodeld */,
+			);
+			path = WelcomeMIVI;
+			sourceTree = "<group>";
+		};
+		9694348F211F1A240059221E /* WelcomeMIVITests */ = {
+			isa = PBXGroup;
+			children = (
+				96943490211F1A240059221E /* WelcomeMIVITests.swift */,
+				96943492211F1A240059221E /* Info.plist */,
+			);
+			path = WelcomeMIVITests;
+			sourceTree = "<group>";
+		};
+		9694349A211F1A240059221E /* WelcomeMIVIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9694349B211F1A240059221E /* WelcomeMIVIUITests.swift */,
+				9694349D211F1A240059221E /* Info.plist */,
+			);
+			path = WelcomeMIVIUITests;
+			sourceTree = "<group>";
+		};
+		969434A9211F1B6A0059221E /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				96918F48211F878F00E10FBC /* collection.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		969434D0211F35E80059221E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				969434D1211F36130059221E /* StaticJsonController.swift */,
+				969434D3211F37060059221E /* DataController.swift */,
+				96918F39211F5FD500E10FBC /* DashBoardController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		969434D5211F3DED0059221E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				969434D6211F3E240059221E /* DashBoardTableCell.swift */,
+				969434D7211F3E240059221E /* DashBoardTableCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96943474211F1A220059221E /* WelcomeMIVI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969434A0211F1A240059221E /* Build configuration list for PBXNativeTarget "WelcomeMIVI" */;
+			buildPhases = (
+				96943471211F1A220059221E /* Sources */,
+				96943472211F1A220059221E /* Frameworks */,
+				96943473211F1A220059221E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WelcomeMIVI;
+			productName = WelcomeMIVI;
+			productReference = 96943475211F1A220059221E /* WelcomeMIVI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9694348B211F1A240059221E /* WelcomeMIVITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969434A3211F1A240059221E /* Build configuration list for PBXNativeTarget "WelcomeMIVITests" */;
+			buildPhases = (
+				023152F16BB684B52296ABED /* [CP] Check Pods Manifest.lock */,
+				96943488211F1A240059221E /* Sources */,
+				96943489211F1A240059221E /* Frameworks */,
+				9694348A211F1A240059221E /* Resources */,
+				D285D5731536EB729E01276D /* [CP] Embed Pods Frameworks */,
+				11AD0D68E545E3B9AABE7E77 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9694348E211F1A240059221E /* PBXTargetDependency */,
+			);
+			name = WelcomeMIVITests;
+			productName = WelcomeMIVITests;
+			productReference = 9694348C211F1A240059221E /* WelcomeMIVITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96943496211F1A240059221E /* WelcomeMIVIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969434A6211F1A240059221E /* Build configuration list for PBXNativeTarget "WelcomeMIVIUITests" */;
+			buildPhases = (
+				6BBA85E7C07E4B1F7B9AFD55 /* [CP] Check Pods Manifest.lock */,
+				96943493211F1A240059221E /* Sources */,
+				96943494211F1A240059221E /* Frameworks */,
+				96943495211F1A240059221E /* Resources */,
+				557E4E87348DFBA7D6902B07 /* [CP] Embed Pods Frameworks */,
+				BEE0506F33DA5E74393938E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96943499211F1A240059221E /* PBXTargetDependency */,
+			);
+			name = WelcomeMIVIUITests;
+			productName = WelcomeMIVIUITests;
+			productReference = 96943497211F1A240059221E /* WelcomeMIVIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9694346D211F1A220059221E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = OPTLPTP146;
+				TargetAttributes = {
+					96943474211F1A220059221E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					9694348B211F1A240059221E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 96943474211F1A220059221E;
+					};
+					96943496211F1A240059221E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 96943474211F1A220059221E;
+					};
+				};
+			};
+			buildConfigurationList = 96943470211F1A220059221E /* Build configuration list for PBXProject "WelcomeMIVI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9694346C211F1A220059221E;
+			productRefGroup = 96943476211F1A220059221E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96943474211F1A220059221E /* WelcomeMIVI */,
+				9694348B211F1A240059221E /* WelcomeMIVITests */,
+				96943496211F1A240059221E /* WelcomeMIVIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96943473211F1A220059221E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96918F3E211F792700E10FBC /* ForgetPasswordVC.xib in Resources */,
+				969434D9211F3E240059221E /* DashBoardTableCell.xib in Resources */,
+				96943486211F1A240059221E /* LaunchScreen.storyboard in Resources */,
+				96943483211F1A240059221E /* Assets.xcassets in Resources */,
+				9694347E211F1A220059221E /* Main.storyboard in Resources */,
+				96918F46211F7F9F00E10FBC /* 2.png in Resources */,
+				969434CB211F317D0059221E /* DashBoardVC.xib in Resources */,
+				96918F45211F7F9F00E10FBC /* 4.png in Resources */,
+				969434C7211F2BCB0059221E /* HeaderVC.xib in Resources */,
+				96918F44211F7F9F00E10FBC /* 3.png in Resources */,
+				96918F47211F7F9F00E10FBC /* 1.png in Resources */,
+				96918F49211F878F00E10FBC /* collection.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9694348A211F1A240059221E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96943495211F1A240059221E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		023152F16BB684B52296ABED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WelcomeMIVITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11AD0D68E545E3B9AABE7E77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WelcomeMIVITests/Pods-WelcomeMIVITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557E4E87348DFBA7D6902B07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WelcomeMIVIUITests/Pods-WelcomeMIVIUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WelcomeMIVIUITests/Pods-WelcomeMIVIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BBA85E7C07E4B1F7B9AFD55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WelcomeMIVIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE0506F33DA5E74393938E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WelcomeMIVIUITests/Pods-WelcomeMIVIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D285D5731536EB729E01276D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WelcomeMIVITests/Pods-WelcomeMIVITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WelcomeMIVITests/Pods-WelcomeMIVITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96943471211F1A220059221E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969434CD211F31BD0059221E /* Constant.swift in Sources */,
+				969434C6211F2BCB0059221E /* HeaderVC.swift in Sources */,
+				969434CF211F34DC0059221E /* UIColor+Extension.swift in Sources */,
+				96918F3A211F5FD500E10FBC /* DashBoardController.swift in Sources */,
+				96918F3D211F792700E10FBC /* ForgetPasswordVC.swift in Sources */,
+				969434D8211F3E240059221E /* DashBoardTableCell.swift in Sources */,
+				9694347B211F1A220059221E /* LoginVC.swift in Sources */,
+				969434D4211F37060059221E /* DataController.swift in Sources */,
+				96943481211F1A220059221E /* WelcomeMIVI.xcdatamodeld in Sources */,
+				969434D2211F36130059221E /* StaticJsonController.swift in Sources */,
+				969434CA211F317D0059221E /* DashBoardVC.swift in Sources */,
+				96943479211F1A220059221E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96943488211F1A240059221E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96943491211F1A240059221E /* WelcomeMIVITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96943493211F1A240059221E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9694349C211F1A240059221E /* WelcomeMIVIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9694348E211F1A240059221E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96943474211F1A220059221E /* WelcomeMIVI */;
+			targetProxy = 9694348D211F1A240059221E /* PBXContainerItemProxy */;
+		};
+		96943499211F1A240059221E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96943474211F1A220059221E /* WelcomeMIVI */;
+			targetProxy = 96943498211F1A240059221E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9694347C211F1A220059221E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9694347D211F1A220059221E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96943484211F1A240059221E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96943485211F1A240059221E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9694349E211F1A240059221E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9694349F211F1A240059221E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		969434A1211F1A240059221E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WelcomeMIVI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MYTest.WelcomeMIVI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		969434A2211F1A240059221E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WelcomeMIVI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MYTest.WelcomeMIVI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		969434A4211F1A240059221E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQP498CTSQ;
+				INFOPLIST_FILE = WelcomeMIVITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MYTest.WelcomeMIVITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WelcomeMIVI.app/WelcomeMIVI";
+			};
+			name = Debug;
+		};
+		969434A5211F1A240059221E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQP498CTSQ;
+				INFOPLIST_FILE = WelcomeMIVITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MYTest.WelcomeMIVITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WelcomeMIVI.app/WelcomeMIVI";
+			};
+			name = Release;
+		};
+		969434A7211F1A240059221E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQP498CTSQ;
+				INFOPLIST_FILE = WelcomeMIVIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MYTest.WelcomeMIVIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WelcomeMIVI;
+			};
+			name = Debug;
+		};
+		969434A8211F1A240059221E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQP498CTSQ;
+				INFOPLIST_FILE = WelcomeMIVIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MYTest.WelcomeMIVIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WelcomeMIVI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96943470211F1A220059221E /* Build configuration list for PBXProject "WelcomeMIVI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9694349E211F1A240059221E /* Debug */,
+				9694349F211F1A240059221E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969434A0211F1A240059221E /* Build configuration list for PBXNativeTarget "WelcomeMIVI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969434A1211F1A240059221E /* Debug */,
+				969434A2211F1A240059221E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969434A3211F1A240059221E /* Build configuration list for PBXNativeTarget "WelcomeMIVITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969434A4211F1A240059221E /* Debug */,
+				969434A5211F1A240059221E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969434A6211F1A240059221E /* Build configuration list for PBXNativeTarget "WelcomeMIVIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969434A7211F1A240059221E /* Debug */,
+				969434A8211F1A240059221E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9694347F211F1A220059221E /* WelcomeMIVI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96943480211F1A220059221E /* WelcomeMIVI.xcdatamodel */,
+			);
+			currentVersion = 96943480211F1A220059221E /* WelcomeMIVI.xcdatamodel */;
+			path = WelcomeMIVI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9694346D211F1A220059221E /* Project object */;
+}
